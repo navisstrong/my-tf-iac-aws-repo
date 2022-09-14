@@ -2,8 +2,8 @@ provider "aws" {
   region = var.aws_region
 }
 
-resource "aws_security_group" "mysecuritygroup" {
-  name        = "var.security_group"
+resource "aws_security_group" "my_security_group" {
+  name        = var.security_group
   description = "Security group for EC2 instance"
 
   ingress {
@@ -60,3 +60,4 @@ resource "aws_eip" "myFirstInstance" {
     Name = "myelasticIP"
   }
 }
+
