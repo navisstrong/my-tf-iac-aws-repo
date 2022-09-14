@@ -15,7 +15,7 @@ variable "instance_type" {
 
 variable "security_group" {
   description = "Name of security group"
-  default     = "my-jenkins-security-group"
+  default     = "launch-wizard-1"
 }
 
 variable "tag_name" {
@@ -27,3 +27,4 @@ variable "ami_id" {
   description = "AMI for linux Ec2 instance"
   default     = "ami-06489866022e12a14"
 }
+
