@@ -27,4 +27,3 @@ variable "ami_id" {
   description = "AMI for linux Ec2 instance"
   default     = "ami-06489866022e12a14"
 }
-
